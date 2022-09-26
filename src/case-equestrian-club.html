@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html',{ "title":"Сайт-портфолио Ильи Росчихмарова | Кейс конный клуб" })
+  <body>
+  <header class="header">
+        <div class="container-small">
+          <div class="header-block">
+            <a href="#case">
+              <div class="header-block__logo">
+                <div class="header-block__logo--icon"><p>И</p></div>
+                <div class="header-block__logo--text">
+                  <h3 class="header-title">Илья росчихмаров</h3>
+                  <h4 class="subheader">frontend-разработчик</h4>
+                </div>
+              </div>
+            </a>
+            <div id="burger" class="header-block__menu">
+              <div id="burger" class="header-block__menu">
+              <h4 class="header-block__menu--text">меню</h4>
+              <div class="header-block__menu--humburger">
+                <div id="burgerLine" class="humburger-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div id="header" class="header-menu">
+          <div class="header-menu__block">
+            <ul class="header-menu__block--ul">
+              <li class="header-menu__block--li">
+                <a href="index.html#promo" class="header-menu__block--link active-menu">Главная</a>
+              </li>
+              <li class="header-menu__block--li">
+                <a href="index.html#portfolio" class="header-menu__block--link">Портфолио</a>
+              </li>
+              <li class="header-menu__block--li">
+                <a href="about.html" class="header-menu__block--link">Обо мне</a>
+              </li>
+              <li class="header-menu__block--li">
+                <a href="contact.html" class="header-menu__block--link">Контакты</a>
+              </li>
+              <li class="header-menu__block--li">
+                <a href="https://github.com/ilrosch" class="header-menu__block--link">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      
+
+    <section id = "case" class="case">
+      <div class="container-small">
+        <div class="case-block">
+          <div class="case-block__card">
+            <h2 class="case-block__card--header subheader">кейс</h2>
+            <h1 class="case-block__card--title title title-case">Разработка сайта(лендинга) <br>
+              для конного клуба</h1>
+
+            <div class="case-block__card--text">
+              <h3 class="header-case subheader">моя роль</h3>
+              <p class="text-case">
+                Frontent-разработчик,<br />
+                Web-дизайнер.
+              </p>
+            </div>
+
+            <div class="case-block__card--text">
+              <h3 class="header-case subheader">год</h3>
+              <p class="text-case">2020</p>
+            </div>
+          </div>
+
+          <div class="case-block__card">
+            <p class="case-block__card--p">
+              The Rider — небольшой конный клуб, который располагается на территории Нижегородской области. Хотите пройти обучение верховой езде или просто покататься, то тогда вам сюда!
+            </p>
+
+            <p class="case-block__card--p">Цель работы : создать сайт (лендинг) для представления конного клуба в сети Интернет.
+            </p>
+
+            <p class="case-block__card--p">Срок выполнения работы : 10 дней.</p>
+          </div>
+        </div>
+
+        <img src="img/case-equestrian-club/macbook-equestrian-club.png" alt="Вид сайта на ноутбуке" class="case--image case--image--one" />
+        <img src="img/case-equestrian-club/equestrian-club.png" alt="Вид сайта" class="case--image case--image--one" />
+      </div>
+    </section>
+    @@include('html/work.html',{"header" : "Давайте работать вместе"})
+    <footer class="footer">
+        <div class="container-small">
+          <div class="footer-block">
+            <a href="#case">
+              <div class="header-block__logo footer-block__logo">
+                <div class="header-block__logo--icon"><p>И</p></div>
+                <div class="header-block__logo--text">
+                  <h3 class="header-title">Илья росчихмаров</h3>
+                  <h4 class="subheader">frontend-разработчик</h4>
+                </div>
+              </div>
+            </a>
+      
+            <p class="footer-block--date">2022 год</p>
+          </div>
+        </div>
+      </footer>
+
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

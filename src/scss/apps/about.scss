@@ -1,0 +1,77 @@
+.about {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  &--baner {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  &--text {
+    margin-top: 50px;
+  }
+
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    &__card {
+      &:first-child {
+        width: 336px;
+      }
+
+      &:last-child {
+        width: 376px;
+      }
+
+      &:nth-child(2) {
+        width: 350px;
+      }
+
+      &--header {
+        margin-bottom: 15px;
+        span {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 140%;
+          letter-spacing: 0.03em;
+          color: var(--dark-color);
+        }
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        color: var(--dark-color);
+      }
+
+      &--list {
+        padding-left: 18px;
+      }
+      .list-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.03em;
+        color: var(--dark-grey-color);
+        margin-bottom: 12px;
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 145%;
+          letter-spacing: 0.03em;
+          text-decoration-line: underline;
+          color: var(--grey-color);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  &-line {
+    margin-top: -130px;
+  }
+}

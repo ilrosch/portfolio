@@ -1,0 +1,79 @@
+.contact {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 205px;
+    &__card {
+      &--title {
+        margin-bottom: 60px;
+      }
+      &--text {
+        margin-top: 30px;
+        .header-contact {
+          margin-bottom: 10px;
+        }
+        a {
+          span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 140%;
+            letter-spacing: 0.03em;
+            color: var(--dark-grey-color);
+          }
+        }
+      }
+
+      &--form {
+        display: flex;
+        flex-direction: column;
+        padding-top: 51px;
+
+        .form-header {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 145%;
+          letter-spacing: 0.03em;
+          color: rgba(30, 30, 30, 0.8);
+          margin-bottom: 6px;
+        }
+        input,
+        textarea {
+          width: 600px;
+          height: 51px;
+          background: rgba(234, 234, 234, 0.5);
+          border-radius: 5px;
+          margin-bottom: 15px;
+          padding-left: 16px;
+        }
+
+        textarea {
+          min-width: 600px;
+          max-width: 600px;
+          min-height: 150px;
+          padding-top: 16px;
+        }
+
+        .button__submit {
+          width: 220px;
+          height: 51px;
+          background: var(--grey-color);
+          border-radius: 5px;
+
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 145%;
+          letter-spacing: 0.05em;
+          color: var(--white-color);
+
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

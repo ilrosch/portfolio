@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html',{ "title":"Сайт-портфолио Ильи Росчихмарова | Контакты" })
+  <body>
+    @@include('html/header.html',{}) @@include('html/contacts.html',{})
+    <section class="work">
+      <div class="container">
+        <h3 class="work--header subheader">нужено разработать веб-проект?</h3>
+        <a target="_blank" href="about.html">
+          <div class="work__text">
+            <h3 class="work__text--title title">Узнать больше обо мне</h3>
+            <a target="_blank" href="about.html" class="promo-arrow work-arrow">
+              <div class="promo-arrow--icon work-arrow--icon icon-arrow"></div>
+            </a>
+          </div>
+        </a>
+      </div>
+    </section>
+    @@include('html/footer.html',{})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.skill {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  &--header {
+    padding-top: 100px;
+    text-align: center;
+  }
+  &--title {
+    text-align: center;
+  }
+
+  &-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+    &__card {
+      display: flex;
+      align-items: center;
+      margin-top: 45px;
+      &--round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        background: var(--dark-color);
+        margin-right: 22px;
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 140%;
+          text-align: center;
+          letter-spacing: 0.03em;
+          color: var(--white-color);
+        }
+      }
+
+      &--text {
+        .skill-text {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 140%;
+          letter-spacing: 0.03em;
+          color: var(--dark-grey-color);
+          span {
+            font-weight: 500;
+            color: var(--dark-color);
+          }
+        }
+      }
+    }
+  }
+
+  &-promis {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+  }
+}

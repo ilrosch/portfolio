@@ -1,0 +1,73 @@
+<section class="contact">
+  <div class="container-small">
+    <div class="contact-block">
+      <div class="contact-block__card">
+        <h2 class="contact-block__card--header subheader">контакты</h2>
+        <h1 class="contact-block__card--title title">
+          Контактная <br />
+          информация
+        </h1>
+
+        <div class="contact-block__card--text">
+          <h3 class="header-contact subheader">телефон</h3>
+          <a href="tel:89991407566"><span>+7 (999) 140-75-66</span></a>
+        </div>
+
+        <div class="contact-block__card--text">
+          <h3 class="header-contact subheader">email</h3>
+          <a href="mailto:ilrosch@yandex.ru"><span>ilrosch@yandex.ru</span></a>
+        </div>
+
+        <div class="contact-block__card--text">
+          <h3 class="header-contact subheader">Профиль на фрилас бирже</h3>
+          <a href="https://kwork.ru/user/ilrosch"><span>https://kwork.ru/user/ilrosch<span></a>
+        </div>
+
+        <div class="promo-block__card--social">
+            <a href="https://vk.com/ilrosch" class="social">
+              <div class="social__block">
+                <div class="social__icon">
+                  <p class="social__icon--img icon-vk"></p>
+                </div>
+                <div class="social__text">
+                  <span class="social__text--span">ВКонтакте</span>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="social">
+              <div class="social__block">
+                <div class="social__icon">
+                  <p class="social__icon--img icon-telegram"></p>
+                </div>
+                <div class="social__text">
+                  <span class="social__text--span">Telegram</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://github.com/ilrosch" class="social">
+              <div class="social__block">
+                <div class="social__icon">
+                  <p class="social__icon--img icon-github"></p>
+                </div>
+                <div class="social__text">
+                  <span class="social__text--span">GitHub</span>
+                </div>
+              </div>
+            </a>
+          </div>
+      </div>
+
+      <div class="contact-block__card">
+        <form action="files/php/mail.php" class="contact-block__card--form" method="POST" data-aos="fade-up" data-aos-duration="2000">
+            <p class="form-header">Введите ваше имя:</p>
+            <input type="text" placeholder="Например, Иван" name="name" minlength="2" required />
+            <p class="form-header">Введите ваш email:</p>
+            <input type="email" placeholder="Например, mail@mail.ru" name="email" minlength="4" required />
+            <p class="form-header">Введите ваше сообщение:</p>
+            <textarea name="message" id="message" placeholder="Например, мое сообщение..." minlength="2" required></textarea>
+            <button type="submit" class="button button__submit">отправить</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</section>

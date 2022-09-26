@@ -1,0 +1,33 @@
+.work {
+  position: relative;
+  width: 100%;
+  min-height: 324px;
+  z-index: 2;
+  &--header {
+    text-align: center;
+    padding-top: 120px;
+  }
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+
+    &--title {
+      transition: all 0.5s;
+      text-align: center;
+      margin-right: 25px;
+    }
+  }
+  &-arrow {
+    margin-top: 17px;
+    transform: rotate(-90deg);
+    &--icon {
+      animation: none;
+      top: 0;
+    }
+  }
+}
+.work__text:hover .work__text--title {
+  text-decoration-line: underline;
+}

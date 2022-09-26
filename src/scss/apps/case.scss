@@ -1,0 +1,60 @@
+.case {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 205px;
+    &__card {
+      width: 547px;
+      &--text {
+        margin-top: 50px;
+        .text-case {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 140%;
+          letter-spacing: 0.03em;
+          color: var(--dark-grey-color);
+          margin-top: 10px;
+        }
+      }
+      .case-link {
+        margin-top: 50px;
+        a {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 0.03em;
+          text-decoration-line: underline;
+          text-transform: lowercase;
+          color: var(--dark-color);
+        }
+      }
+      &:last-child {
+        width: 548px;
+        margin-top: 26px;
+      }
+
+      &--p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 145%;
+        letter-spacing: 0.03em;
+        color: var(--dark-grey-color);
+        padding-top: 22px;
+      }
+    }
+  }
+  &--image {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    &--one {
+      margin-top: 50px;
+    }
+  }
+}

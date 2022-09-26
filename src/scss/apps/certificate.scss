@@ -1,0 +1,27 @@
+.certificate {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  &--header {
+    padding-top: 120px;
+    text-align: center;
+  }
+  &--title {
+    text-align: center;
+  }
+  &--text {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .swiper {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 700px;
+    height: 460px;
+    &-wrapper {
+      align-items: center;
+    }
+  }
+}
