@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "browser-sync": "latest",
-    "del": "^7.0.0",
+    "del": "latest",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "latest",
